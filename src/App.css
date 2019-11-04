@@ -1,0 +1,77 @@
+.todoListMain{
+  text-align: center;
+}
+.header{
+  background-color:beige;
+  color: springgreen;
+  font-weight: 500;
+  padding: 15px;
+}
+.body ul{
+  margin: 0;
+  padding: 15px;
+}
+.body ul li{
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+  line-height: 60px;
+  background: aliceblue;
+}
+.body ul li span{
+  cursor: pointer;
+float: right;
+padding: -3px 0px;
+vertical-align: middle;
+margin-top: 11px;
+font-weight: 500;
+}
+  .footer{
+    background-color:azure;
+    bottom: 0px;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+  }
+  .footer input{
+    width: 85%;
+    margin: auto;
+    background: none;
+    border-bottom: 2px solid white;
+    color: black;
+    font-size: 15px;
+    height: 35px;
+  }
+  .footer input:focus{
+    outline: none;
+  }
+  .footer button{
+      right: 50px;
+      height: 50px;
+      width: 100px;
+      font-size: 26px;
+      border: none;
+      box-shadow: 1px 1px 6px;
+      background:springgreen;
+      position: absolute;
+      margin-right: -40px;
+      bottom: inherit;
+  }
+  .footer button:focus{
+    outline: none;
+  }
+.edit{
+  margin-right: 10px;
+}
+#update{
+      right: 50px;
+      height: 50px;
+      width:auto;
+      font-size: 26px;
+      border: none;
+      box-shadow: 1px 1px 6px;
+      position: absolute;
+      margin-right: -40px;
+      bottom: inherit;
+      display: none;
+}
